@@ -1,0 +1,14 @@
+# 安装包通过 GitHub Releases 分发。
+*.exe
+*.msi
+*.zip
+
+# 本地配置、凭据与临时文件。
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+Thumbs.db
+Desktop.ini
