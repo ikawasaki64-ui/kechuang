@@ -23,14 +23,14 @@ Review 服务于课件学习、练习与复盘；Live 服务于正在发生的�
 
 ## 下载与安装
 
-1. 打开 [v1 发布页](https://github.com/ikawasaki64-ui/kechuang/releases/tag/v1)。
-2. 在 Assets 中下载 `kechuang-v1-windows.exe`。
+1. 打开 [最新版本发布页](https://github.com/ikawasaki64-ui/kechuang/releases/latest)；历史版本见下方版本下载表。
+2. 在 Assets 中下载对应版本的 Windows `.exe` 安装包。
 3. 在 Windows 电脑上运行安装程序，按安装向导完成安装。
 4. 启动课窗；如程序提示需要模型服务配置，请按该版本界面提示完成配置，再导入课件开始学习。
 
 安装包的最低 Windows 版本、硬件要求、支持的课件格式及 v1 模型配置步骤尚未提供，后续将根据实际版本补充。
 
-## v1 文件信息
+## v1 历史文件信息
 
 | 项目 | 内容 |
 | --- | --- |
@@ -50,6 +50,19 @@ Get-FileHash -LiteralPath '.\kechuang-v1-windows.exe' -Algorithm SHA256
 
 将结果与本页或发布附件 `SHA256SUMS.txt` 中的值对照。校验值用于确认文件内容一致，不代表运行或功能验收通过。
 
+## 版本下载
+
+| 顺序 | 版本 | 原始安装包 |
+| --- | --- | --- |
+| 1 | [v1](https://github.com/ikawasaki64-ui/kechuang/releases/tag/v1) | 课窗安装程序v1.exe |
+| 2 | [v1.3](https://github.com/ikawasaki64-ui/kechuang/releases/tag/v1.3) | 课窗安装程序v1.3.exe |
+| 3 | [v1.31](https://github.com/ikawasaki64-ui/kechuang/releases/tag/v1.31) | 课窗安装程序v1.31.exe |
+| 4 | [v1.32](https://github.com/ikawasaki64-ui/kechuang/releases/tag/v1.32) | 课窗安装程序v1.32.exe |
+| 5 | [v1.3.4](https://github.com/ikawasaki64-ui/kechuang/releases/tag/v1.3.4) | 课窗1.3.4安装程序.exe |
+| 6 | [v1.3.5](https://github.com/ikawasaki64-ui/kechuang/releases/tag/v1.3.5) | 课窗v1.3.5安装程序.exe |
+| 7 | [v1.3.5 引导学习修订版](https://github.com/ikawasaki64-ui/kechuang/releases/tag/v1.3.5-guided-learning) | 课窗v1.3.5安装程序-引导学习修订版.exe |
+| 8 | [v1.3.6 11优化版](https://github.com/ikawasaki64-ui/kechuang/releases/tag/v1.3.6) | 课窗v1.3.6安装程序-11优化版.exe |
+
 ## 使用许可与商业授权
 
 课窗采用[课窗非商业使用许可](LICENSE)。允许依许可进行非商业使用；**任何商业用途均须事先获得书面授权**，包括原版、修改版、衍生作品、收费服务和企业内部使用。修改、改名或重新打包不会消除商业限制。第三方组件仍适用其各自的许可。
@@ -67,6 +80,6 @@ Get-FileHash -LiteralPath '.\kechuang-v1-windows.exe' -Algorithm SHA256
 
 本仓库用于发布课窗安装包、项目介绍及版本说明。安装包放在 [Releases](https://github.com/ikawasaki64-ui/kechuang/releases)，版本记录见 [CHANGELOG.md](CHANGELOG.md)。当前发布材料未包含项目源码。
 
-后续版本将按原始版本顺序逐次添加；同一版本号下的修订包会使用独立标签，并保留对应原始文件名及更新说明。
+历史版本已按原始顺序归档发布；同号修订包使用独立标签。1.3.6 仅发布 11优化版，其余 1.3.6 中间构建未发布。前几个没有更新说明的版本仅记录版本号；后续版本保留原始更新说明。
 
 遇到问题可在 [Issues](https://github.com/ikawasaki64-ui/kechuang/issues) 中提供版本号、复现步骤和错误截图。提交截图或日志前，请移除 API Key、个人信息和私有课件内容。
